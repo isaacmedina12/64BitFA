@@ -25,13 +25,13 @@ endmodule
 
 
 module adder10 (
-    input  logic [9:0] A,
-    input  logic [9:0] B,
+    input  logic [3:0] A,
+    input  logic [3:0] B,
     input  logic       Cin,
-    output logic [9:0] Sum,
+    output logic [3:0] Sum,
     output logic       Cout
 );
-    logic [9:0] carry;  // internal carries
+    logic [3:0] carry;  // internal carries
 
     // First stage
     full_adder fa0 (
@@ -45,7 +45,7 @@ module adder10 (
     // Generate remaining stages
     genvar i;
     generate
-        for (i = 1; i < 10; i++) begin : adder_chain
+        for (i = 1; i < 4; i++) begin : adder_chain
             full_adder fai (
                 .a    (A[i]),
                 .b    (B[i]),
@@ -57,5 +57,5 @@ module adder10 (
     endgenerate
 
     // Final carry out
-    assign Cout = carry[9];
+    assign Cout = carry[3];
 endmodule
