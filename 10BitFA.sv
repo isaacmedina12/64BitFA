@@ -1,11 +1,12 @@
 //=========================================================
-// 10-bit Ripple-Carry Adder (UPduino 3.1 target) in SystemVerilog
+// 10-bit Ripple-Carry Adder (UPduino 3.1 target) in SystemVerilog 
 // Implemented with XOR and AND/OR logic only
 // Made by: Isaac Medina | Tufts University Department of Electrical and Computer Engineering
 // Class of 2027
+// Six 10-bit adders implimented
 //
-// Pin Mapping in .pcf file sjsdjdjdjdjsgit 
-// GitHub Link: 
+// Pin Mapping in .pcf file 
+// GitHub Link: https://github.com/isaacmedina12/64BitFA
 //=========================================================
 
 module full_adder (
@@ -13,7 +14,7 @@ module full_adder (
     input  logic b,
     input  logic cin,
     output logic sum,
-    output logic cout
+    output logic couts
 );
     // Full adder equation:
     // sum  = a ^ b ^ cin
