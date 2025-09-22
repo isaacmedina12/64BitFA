@@ -14,7 +14,7 @@ module full_adder (
     input  logic b,
     input  logic cin,
     output logic sum,
-    output logic couts
+    output logic cout
 );
     // Full adder equation:
     // sum  = a ^ b ^ cin
