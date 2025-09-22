@@ -4,7 +4,7 @@
 // Made by: Isaac Medina | Tufts University Department of Electrical and Computer Engineering
 // Class of 2027
 // Six 10-bit adders implimented
-//
+// Date: 9/22/25
 // Pin Mapping in .pcf file 
 // GitHub Link: https://github.com/isaacmedina12/64BitFA
 //=========================================================

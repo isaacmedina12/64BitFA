@@ -3,8 +3,8 @@
 // Implemented with XOR and AND/OR logic only
 // Made by: Isaac Medina | Tufts University Department of Electrical and Computer Engineering
 // Class of 2027
-// Only one 4-bit adder implimented
-// 
+// Six 10-bit adders implimented
+// Date: 9/22/25
 // Pin Mapping in .pcf file 
 // GitHub Link: https://github.com/isaacmedina12/64BitFA
 //=========================================================
